@@ -1,6 +1,8 @@
 # node-red-contrib-moleculer
 Node Red client for Moleculer with events, emit, call, request and response support.
 
+**Fork of node-red-contrib-moleculer to support moculer 0.14 version**
+
 # Install Instructions
 
 On ~/.node-red folder:

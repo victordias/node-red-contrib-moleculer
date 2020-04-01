@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-moleculer",
-  "version": "0.2.0",
+  "name": "node-red-contrib-moleculer-v2",
+  "version": "0.14.1",
   "description": "Moleculer and NodeRED integration",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chameleonbr/node-red-contrib-moleculer.git"
+    "url": "git+https://github.com/victordias/node-red-contrib-moleculer.git"
   },
   "node-red": {
     "nodes": {
@@ -21,19 +21,19 @@
     "node-red",
     "microservices"
   ],
-  "author": "Andre Avila <chameleonbr@gmail.com>",
+  "author": "victor.dias.oliveira@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chameleonbr/node-red-contrib-moleculer/issues"
+    "url": "https://github.com/victordias/node-red-contrib-moleculer/issues"
   },
-  "homepage": "https://github.com/chameleonbr/node-red-contrib-moleculer#readme",
+  "homepage": "https://github.com/victordias/node-red-contrib-moleculer#readme",
   "dependencies": {
     "express-dynamic-middleware": "^1.0.0",
-    "moleculer": "^0.13.9",
-    "moleculer-web": "^0.8.5"
+    "moleculer": "^0.14.5",
+    "moleculer-web": "^0.9.1"
   },
   "optionalDependencies": {
-    "ioredis": "^4.14.0",
-    "nats": "^1.3.0"
+    "ioredis": "^4.16.1",
+    "nats": "^1.4.8"
   }
 }
